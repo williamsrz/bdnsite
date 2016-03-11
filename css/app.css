@@ -4,13 +4,14 @@ body {
 }
 header {
   background-color: #333;
+  padding: 1.8rem;
 }
 h1 {
   font-weight: 100;
   font-size: 3.5em;
   text-align: center;
   color: white;
-  margin: 0;
+  margin: 1rem 0 0 0;
 }
 input {
   border-radius: 0;
@@ -55,6 +56,10 @@ button:disabled {
   display: block;
   margin-bottom: 1em;
   font-size: 1.5em;
+}
+
+span.brasildotnet {
+    font-weight: 300;
 }
 .content {
   margin: 0 auto;
